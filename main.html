@@ -4,13 +4,58 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+body{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+	.card {
+    width: 300px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    text-align: center;
+}
+
+		.card img {
+			width: 300px;
+			height: auto;
+		}
+
+		h1{
+			font-size: 30px;
+		}
+
+		.card price {
+            font-size: 20px;
+		}
+
+		.card button {
+			padding: 10px;
+			background-color: red;
+			color: white;
+			border-radius: 10px;
+			text-decoration: none;
+		}
+		
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
 
-	<div class = "card-border">
-		<img src = https://storage.googleapis.com/acciojob-open-file-collections/pricing-card.png
+	<div class = "card">
+		<img src = "https://media-rockstargames-com.akamaized.net/mfe6/prod/__common/img/71d4d17edcd49703a5ea446cc0e588e6.jpg">
+		<h1>Pricing Card</h1>
+		<p class = "price">Price: Rs.200</p>
+		<p class = "description">Description: Lorem ipsom dolor sit amet, conectetur adipiscing elit.</p>
+		<button><a href = "https://store.rockstargames.com/">Buy Now</a></button>
 	</div>
     <script type="text/javascript" src="./script.js">
 </script>
